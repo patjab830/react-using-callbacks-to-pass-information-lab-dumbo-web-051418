@@ -12,11 +12,11 @@
 In React, **props** are used to pass information _down_ the component tree, from
 parents to children. In order to propagate information in the opposite
 direction, we can use callback functions that are passed from parent components
-to children. 
+to children.
 
 This allows the callback to be _owned_ by a different component than the one
 invoking it. Once invoked, the callback can effect change in the component that
-owns it, instead of the component that called it. 
+owns it, instead of the component that called it.
 
 For this lab, we have three components:
 
@@ -62,7 +62,7 @@ Using callbacks, we can do both of these things pretty easily!
 
 You should see 100x100 cells rendering with a color selection `<div>` at the top
 of the screen. When any of the color swatches in the color selection `<div>` are
-clicked, subsequently selected cells should change to that color. 
+clicked, subsequently selected cells should change to that color.
 
 <p align="center">
   <img src="src/completed-example.gif" />
